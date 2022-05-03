@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumTest {
 
     public static void main(String[] args) {
-        //1- Setting up tthe webdriver manager
+        //1- Setting up the webdriver manager
+        // we create our "browser driver"
         WebDriverManager.chromedriver().setup();
 
         //2-Create instance of the chrome driver
