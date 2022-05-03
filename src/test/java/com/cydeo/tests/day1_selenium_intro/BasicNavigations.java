@@ -60,6 +60,18 @@ public class BasicNavigations {
         System.out.println("currentURL = " + currentURL);
 
 
+        //this line will maximize the page
+        driver.manage().window().maximize();
+
+       // driver.manage().window().fullscreen();
+
+
+        //this line will close the currently opened window
+        driver.close();
+
+        //this line will close all of the opened windows
+        driver.quit();
+
 
 
 
