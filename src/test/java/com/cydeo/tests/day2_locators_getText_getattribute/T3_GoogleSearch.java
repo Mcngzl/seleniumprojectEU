@@ -20,12 +20,14 @@ public class T3_GoogleSearch {
         //2-go to google
         driver.get("https://www.google.com");
         Thread.sleep(5000);
+        WebElement acceptButton =driver.findElement(By.className("tHlp8d"));
+        //System.out.println(acceptButton.getText());
+        //acceptButton.click();
 
         //3-Write "apple" in search box
         //4.PRESS enter using Keys.ENTER
-        WebElement googleSearchBox =driver.findElement(By.name("q"));
-        googleSearchBox.sendKeys("apple"+ Keys.ENTER);
-
+        WebElement googleSearchBox = driver.findElement(By.name("q"));
+        googleSearchBox.sendKeys("apple" + Keys.ENTER);
         //5- Verify title:
         //Expected: Title should start with “apple” word
         String expectedInTitle = "apple";
