@@ -35,6 +35,8 @@ public class T1_Alert_Practices {
 
         //4. Click to OK button from the alert
         alert.accept();
+        //alert.dismiss();
+        //alert.sendKeys("");
 
 
         //5. Verify “You successfully clicked an alert” text is displayed.
